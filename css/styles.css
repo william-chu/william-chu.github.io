@@ -52,7 +52,7 @@ a:hover {
 }
 
 #mainNav {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   font-size: 18px;
   text-transform: uppercase;
@@ -155,7 +155,7 @@ a:hover {
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .masthead .intro-body .intro-text {
@@ -243,6 +243,22 @@ a:hover {
   background-size: cover;
 }
 
+.projects-section img {
+  width: 70%;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.projects-section a {
+  margin-bottom: 25px;
+}
+
+.projects-section h3 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #30A5B9;
+  font-size: 18px;
+}
+
 .btn {
   font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -259,7 +275,7 @@ a:hover {
   background-color: transparent;
 }
 
-.btn-default:focus, .btn-default:hover {
+.btn-default:hover {
   color: white;
   border: 1px solid #30A5B9;
   background-color: #30A5B9;
