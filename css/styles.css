@@ -306,6 +306,11 @@ footer {
   padding: 50px 0;
 }
 
+#envelope-icon {
+  font-size:50px;
+  margin-bottom: 25px;
+}
+
 footer p {
   font-size: 14px;
   margin: 0;
