@@ -43,7 +43,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #25A8E8;
+  color: #468de5;
 }
 
 a:hover {
@@ -56,7 +56,7 @@ a:hover {
   margin-bottom: 0;
   font-size: 18px;
   text-transform: uppercase;
-  background-color: black;
+  background-color: #2b2b2b;
 }
 
 #mainNav .navbar-toggler {
@@ -114,12 +114,11 @@ a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: #2b2b2b;
   }
   #mainNav .nav-link.active {
     outline: 0;
-    color: #25A8E8;
+    color: #468de5;
     opacity: 1;
   }
   #mainNav .nav-link.active:hover {
@@ -140,12 +139,12 @@ a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: radial-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: white;
-  -webkit-background-size: cover;
+  background: url("../img/rain.svg") repeat bottom center scroll;
+  background-color: #468de5;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .masthead .intro-body {
@@ -255,7 +254,7 @@ a:hover {
 
 .projects-section h3 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #25A8E8;
+  color: #468de5;
   font-size: 18px;
 }
 
@@ -270,15 +269,15 @@ a:hover {
 }
 
 .btn-default {
-  color: #25A8E8;
-  border: 1px solid #25A8E8;
+  color: #468de5;
+  border: 1px solid #468de5;
   background-color: transparent;
 }
 
 .btn-default:hover {
   color: white;
-  border: 1px solid #25A8E8;
-  background-color: #25A8E8;
+  border: 1px solid #468de5;
+  background-color: #468de5;
 }
 
 ul.banner-social-buttons {
