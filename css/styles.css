@@ -140,7 +140,7 @@ a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/rain.svg") repeat bottom center scroll;
+  /* background: url("../img/rain.svg") repeat bottom center scroll; */
   background-color: #468de5;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
