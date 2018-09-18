@@ -5,7 +5,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: #2B2B2B;
+  color: #3c3c3c;
   background-color: white;
 }
 
@@ -44,9 +44,9 @@ p {
 }
 
 a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: #468de5;
 }
 
@@ -60,7 +60,7 @@ a:hover {
   margin-bottom: 0;
   font-size: 18px;
   text-transform: uppercase;
-  background-color: #2b2b2b;
+  background-color: #3c3c3c;
 }
 
 #mainNav .navbar-toggler {
@@ -98,7 +98,6 @@ a:hover {
   font-size: 26px;
 }
 
-
 #mainNav .navbar-nav .nav-item {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -119,7 +118,7 @@ a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: #2b2b2b;
+    background: #3c3c3c;
   }
   #mainNav .nav-link.active {
     outline: 0;
@@ -145,11 +144,6 @@ a:hover {
   text-align: center;
   color: white;
   background-color: #468de5;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background: url("../img/rain.svg") repeat bottom center scroll;
-  background-size: cover;*/
 }
 
 .masthead .intro-body {
@@ -160,6 +154,7 @@ a:hover {
 .masthead .intro-body .brand-heading {
   font-size: 50px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 .masthead .intro-body .intro-text {
@@ -223,15 +218,12 @@ a:hover {
 }
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
-
-@media (min-width: 992px) {
-  .content-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+.content-section-icon {
+  font-size:75px;
+  margin-bottom: 25px;
 }
 
 .about-section img {
@@ -248,8 +240,12 @@ a:hover {
   }
 }
 
+.about-section i {
+  padding-right: 5px;
+}
+
 .projects-section {
-  color: #2B2B2B;
+  color: #3c3c3c;
   background-color: #F1F1F2;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,30 +294,8 @@ ul.banner-social-buttons {
   margin-top: 0;
 }
 
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
-}
-
-@media (max-width: 767px) {
-  ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }
-}
-
 footer {
-  padding: 50px 0;
-}
-
-#envelope-icon {
-  font-size:50px;
-  margin-bottom: 25px;
+  padding: 0 0 50px;
 }
 
 footer p {
