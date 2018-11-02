@@ -169,6 +169,7 @@ a:hover {
   }
   .masthead .intro-body .brand-heading {
     font-size: 80px;
+    white-space: nowrap;
   }
   .masthead .intro-body .intro-text {
     font-size: 38px;
@@ -179,7 +180,7 @@ a:hover {
       font-size: 90px;
     }
     .masthead .intro-body .intro-text {
-      font-size: 52px;
+      font-size: 48px;
     }
   }
 }
@@ -232,6 +233,7 @@ a:hover {
   margin: 0 auto 50px;
   border-radius: 50%;
   max-width: 378px;
+  transition: .3s;
 }
 
 @media (min-width: 992px) {
