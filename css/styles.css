@@ -25,19 +25,19 @@ h6 {
   margin: 0 0 35px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  transition: .3s;
+  transition: all .3s ease-in-out;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px;
-  transition: .3s;
+  transition: all .3s ease-in-out;
 }
 
 @media (min-width: 768px) {
   p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     margin: 0 0 35px;
   }
@@ -130,7 +130,7 @@ a:hover {
   }
 }
 
-.shadow{
+.shadow {
 	-webkit-box-shadow: 0 10px 6px -6px #000;
 	   -moz-box-shadow: 0 10px 6px -6px #000;
 	        box-shadow: 0 10px 6px -6px #000;
@@ -219,12 +219,48 @@ a:hover {
 }
 
 .content-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  transition: .3s ease;
 }
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 80px;
+  }
+}
+
 .content-section-icon {
   font-size:75px;
   margin-bottom: 25px;
+}
+
+.about-section {
+  padding-top: 30px;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.about-section:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+#about-flex {
+  max-width: 960px;
+  display: block;
+  margin: auto;
 }
 
 .about-section img {
@@ -233,7 +269,7 @@ a:hover {
   margin: 0 auto 50px;
   border-radius: 50%;
   max-width: 378px;
-  transition: .3s;
+  transition: all .3s ease-in-out;
 }
 
 @media (min-width: 992px) {
@@ -246,6 +282,20 @@ a:hover {
   padding-right: 5px;
 }
 
+#about:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
 .projects-section {
   color: #3c3c3c;
   background-color: #F1F1F2;
@@ -253,6 +303,23 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.projects-section:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -1;
 }
 
 .projects-section img {
@@ -268,6 +335,7 @@ a:hover {
 .projects-section h3 {
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
   font-size: 24px;
+  color: #468de5;
 }
 
 .btn {
@@ -283,6 +351,7 @@ a:hover {
 .btn-default {
   color: #468de5;
   border: 1px solid #468de5;
+  border-radius: 3px;
   background-color: transparent;
 }
 
