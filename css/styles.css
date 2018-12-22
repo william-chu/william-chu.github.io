@@ -22,7 +22,7 @@ h5,
 h6 {
   font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 35px;
+  margin: 0 0 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
   transition: all .3s ease-in-out;
@@ -247,7 +247,7 @@ a:hover {
   transition: .3s ease;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .content-section {
     padding-top: 80px;
   }
@@ -300,6 +300,19 @@ a:hover {
   }
 }
 
+.about-section h2 {
+  margin: 0;
+  border-bottom: 3px solid #468de5;
+}
+
+.about-header {
+  margin-bottom: 20px;
+}
+
+.about-section a {
+  margin-right: 20px;
+}
+
 .about-section i {
   padding-right: 5px;
 }
@@ -320,7 +333,7 @@ a:hover {
 
 .projects-section {
   color: #3c3c3c;
-  background-color: #F1F1F2;
+  background-color: #f1f1f2;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -344,10 +357,19 @@ a:hover {
   z-index: -1;
 }
 
+.projects-header {
+  margin: 30px 0;
+}
+
 .projects-section img {
   width: 70%;
   display: block;
   margin: 0 auto 25px;
+}
+
+.projects-section i {
+  font-size: 3rem;
+  margin-left: 20px;
 }
 
 .projects-section a {
@@ -373,11 +395,13 @@ a:hover {
   color: #468de5;
   border: 1px solid #468de5;
   border-radius: 5px;
+  padding: 2px 10px;
+  margin: 0 2px;
   background-color: transparent;
 }
 
 .btn-default:hover {
-  color: white;
+  color: #fff;
   border: 1px solid #468de5;
   background-color: #468de5;
 }
