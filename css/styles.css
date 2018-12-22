@@ -137,34 +137,19 @@ a:hover {
 }
 
 .masthead {
-  display: table;
+  position: relative;
+  height: 100vh;
   width: 100%;
-  height: auto;
-  padding: 200px 0;
   text-align: center;
   color: white;
-  background: #468de5;
-  position: relative;
-  z-index: 20;
-}
-
-.masthead:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  transform: skewY(3deg);
-  transform-origin: 0;
-  z-index: -1;
+  background-color: #468de5;
+  background: linear-gradient(#468de5, #3d7de5);
 }
 
 .masthead .intro-body {
-  display: table-cell;
-  vertical-align: middle;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .masthead .intro-body .brand-heading {
@@ -180,7 +165,6 @@ a:hover {
 
 @media (min-width: 768px) {
   .masthead {
-    height: 100%;
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
@@ -207,6 +191,7 @@ a:hover {
 }
 
 .btn-circle {
+  position: relative;
   font-size: 26px;
   width: 55px;
   height: 55px;
@@ -219,6 +204,7 @@ a:hover {
   border: 2px solid white;
   border-radius: 50% !important;
   background: transparent;
+  z-index: 10;
 }
 
 .btn-circle i {
@@ -232,6 +218,27 @@ a:hover {
 .btn-circle:hover {
   background: rgba(255, 255, 255, 0.4);
   opacity: 1;
+}
+
+.masthead svg {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 765px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .svg--sm {
+    display: none;
+  }
 }
 
 .content-section {
@@ -360,13 +367,12 @@ a:hover {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0;
 }
 
 .btn-default {
   color: #468de5;
   border: 1px solid #468de5;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: transparent;
 }
 
@@ -376,12 +382,28 @@ a:hover {
   background-color: #468de5;
 }
 
+.contact-section {
+  background-color: #3c3c3c;
+  background: linear-gradient(177deg, #3c3c3c, #4a4a4a);
+  color: #FFF;
+}
+
+.contact-section .fa-paper-plane {
+  font-size: 40px;
+  transform: rotate(25deg);
+}
+
 ul.banner-social-buttons {
   margin-top: 0;
 }
 
+ul.banner-social-buttons a {
+  background-color: #468de5;
+  color: #fff;
+}
+
 footer {
-  padding: 0 0 50px;
+  padding: 20px 0;
 }
 
 footer p {
