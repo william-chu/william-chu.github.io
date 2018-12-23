@@ -10,7 +10,7 @@
       var scrolled = $(window).scrollTop();
       $('.parallax').css('top',-(scrolled*0.0315)+'rem');
       $('.parallax > .intro-body').css('top',-(scrolled*-0.005)+'rem');
-      $('.parallax > .intro-body').css('opacity',1-(scrolled*.00175));
+      // $('.parallax > .intro-body').css('opacity',1-(scrolled*.00175));
     };
   });
 

@@ -1,9 +1,9 @@
-html {
+html, body {
   width: 100%;
   height: 100%;
 }
 
-body {
+ {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -11,8 +11,6 @@ body {
   display: block;
   margin: auto;
   max-width: 2048px;
-  width: 100%;
-  height: 100%;
   color: #333;
   background-color: white;
 }
@@ -152,21 +150,12 @@ a:hover {
   }
 }
 
-/* Jagged SVG */
+/* Hero Jagged SVG */
 
 .masthead-container {
   position: relative;
   height: 100%;
   width: 100%;
-}
-
-.masthead-container:before {
-  content: '';
-  height: 100%;
-  width: 100%;
-  height: 170vh;
-  width: 100vw;
-  position: absolute;
 }
 
 .masthead-container svg {
@@ -208,7 +197,7 @@ a:hover {
 /* Hero */
 
 .masthead {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   text-align: center;
   color: #333;
@@ -269,35 +258,6 @@ a:hover {
   outline: 0;
   box-shadow: none;
 }
-
-/* .btn-circle {
-  position: relative;
-  font-size: 26px;
-  width: 55px;
-  height: 55px;
-  margin-top: 15px;
-  line-height: 45px;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-  border: 1px solid #468fff;
-  border-radius: 50% !important;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
-
-.btn-circle i {
-  color: #fff;
-}
-
-.btn-circle i:hover {
-  opacity: 1;
-}
-
-.btn-circle:hover {
-  background: rgba(0, 0, 0, 0.4);
-  opacity: 1;
-} */
 
 /* Content Sections */
 
@@ -383,7 +343,7 @@ a:hover {
 
 .projects-section {
   color: #333;
-  background: url("../img/square_bg.png"), #fcfcfc;
+  background: #fcfcfc;
   position: relative;
   padding-bottom: 0;
   z-index: 10;
@@ -502,6 +462,7 @@ footer p {
 }
 
 /* Doodle art for large viewport */
+
 #chart-doodle,
 #light-bulb-doodle,
 #arrow-doodle,
@@ -522,7 +483,7 @@ footer p {
 
 #light-bulb-doodle {
   left: -400px;
-  top: 25px;
+  top: -25px;
   height: 400px;
   width: 200px;
 }
