@@ -46,7 +46,11 @@
     <header class="masthead">
       <div class="intro-body">
         <div class="container-fluid">
-          <h1 class="brand-heading">William Chu</h1>
+          <div class="brand-heading-container">
+            <h1 class="brand-heading">William Chu</h1>
+            <img id="chart-doodle" src="img/chart.svg" alt="chart doodle" draggable="false"/>
+            <img id="light-bulb-doodle" src="img/light-bulb.svg" alt="light bulb doodle" draggable="false"/>
+          </div>
           <p class="intro-text">Jr. UX Developer</p>
           <a href="#about" class="btn btn-circle js-scroll-trigger">
             <i class="fal fa-angle-double-down"></i>
@@ -60,18 +64,22 @@
     </header>
     <!-- About Section -->
     <section id="about" class="about-section content-section">
+      <img id="laptop-doodle" src="img/laptop.svg" alt="laptop doodle" draggable="false"/>
       <div class="container">
         <div id="about-flex" class="row d-flex align-items-center">
           <div class="col-12 col-lg-6 mx-auto">
-            <img class="shadow" src="img/williamchu.jpg" alt="photo of William Chu">
+            <img class="shadow profile-photo" src="img/williamchu.jpg" alt="photo of William Chu" draggable="false">
           </div>
           <div class="col-12 col-lg-6 mx-auto">
               <div class="about-header d-flex align-items-center justify-content-between">
                 <h2 class="text-center">About</h2>
-                <a href="resume.pdf" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fal fa-file-pdf"></i>
-                  <span class="network-name">Resume</span>
-                </a>
+                <div class="resume-button-container">
+                  <a href="resume.pdf" class="btn btn-default btn-lg" target="_blank">
+                    <i class="fal fa-file-pdf"></i>
+                    <span class="network-name">Resume</span>
+                  </a>
+                  <img id="arrow-doodle" src="img/curved-arrow.svg" alt="arrow doodle" draggable="false"/>
+                </div>
               </div>
                 <p>My first experience with code involved building Wordpress sites as a hobby. After acquiring a decade of experience in IT, I decided to switch careers and pursue development by enrolling at a vocational code school. I want to produce expressive, maintainable code paired with thoughtful design to solve business problems and provide a pleasant user experience.</p>
                 <div class="text-center">
@@ -91,47 +99,48 @@
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>Tripgrid</h3>
-            <img class="shadow" src="img/tripgrid.png" alt="tripgrid screenshot">
+            <img class="shadow" src="img/tripgrid.png" alt="tripgrid screenshot" draggable="false">
             <a href="https://www.tripgrid.com/" class="btn btn-default btn-lg" target="_blank">View Company</a>
             <p class="text-left">Tripgrid is an intuitive workspace for project based travel.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>qwertySeq()</h3>
-            <img class="shadow" src="img/qwertyseq.png" alt="qwertySeq screenshot">
+            <img class="shadow" src="img/qwertyseq.png" alt="qwertySeq screenshot" draggable="false">
             <a href="https://chrome.google.com/webstore/detail/qwertyseq/afnedldoicelogeopolcehamaelpagfd" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://djmag.com/news/try-browser-based-16-step-midi-sequencer" class="btn btn-default btn-lg" target="_blank">Press</a>
             <p class="text-left">MIDI sequencer Chrome extension written with React. This application's logic was developed by my friend and classmate <a href="https://www.linkedin.com/in/dowdmatt/" target="_blank">Matt Dowdney</a>. I helped him design and develop the front-end.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>Component Library</h3>
-            <img class="shadow" src="img/componentlibrary.png" alt="Component library screenshot">
+            <img class="shadow" src="img/componentlibrary.png" alt="Component library screenshot" draggable="false">
             <a href="http://componentlibrary.blogdrop.eu/" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://github.com/william-chu/component-library" class="btn btn-default btn-lg" target="_blank">View Code</a>
             <p class="text-left">Reusable, responsively styled components created for veterinary hospital WordPress sites using PHP, JS and jQuery.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>TroubleChute</h3>
-            <img class="shadow" src="img/troublechutelogin.jpg" alt="TroubleChute login screen">
+            <img class="shadow" src="img/troublechutelogin.jpg" alt="TroubleChute login screen" draggable="false">
             <a href="https://snack.expo.io/@william-chu/github.com-william-chu-troublechute" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://blog.expo.io/troublechute-a-bootcampers-journey-to-deducing-his-deuce-64bd988b1e89" class="btn btn-default btn-lg" target="_blank">Press</a>
             <p class="text-left">React Native app for sufferers of poor digestion. Determines unknown dietary triggers by deconstructing meals into ingredients using the Yummly API.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>Angular IM</h3>
-            <img class="shadow" src="img/aimscreenshot.jpg" alt="AIM screenshot">
+            <img class="shadow" src="img/aimscreenshot.jpg" alt="AIM screenshot" draggable="false">
             <a href="https://aim-project-9657f.firebaseapp.com/" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://github.com/william-chu/epicodus-week10" class="btn btn-default btn-lg" target="_blank">View Code</a>
             <p class="text-left">AIM is a 21st century messaging application with a 90s feel. Database and hosting via Firebase.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>Xtinction</h3>
-            <img class="shadow" src="img/xtinctiongame.jpg" alt="Xtinction screenshot">
+            <img class="shadow" src="img/xtinctiongame.jpg" alt="Xtinction screenshot" draggable="false">
             <a href="https://william-chu.github.io/epicodus-week5-reskin/" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://github.com/william-chu/epicodus-week5-reskin" class="btn btn-default btn-lg" target="_blank">View Code</a>
             <p class="text-left">Bejeweled clone created with JS and jQuery. I reskinned the final product to accurately depict the terrifying end of the Cretaceous Period.</p>
           </div>
         </div>
       </div>
+      <img id="pencil-doodle" src="img/pencil.svg" alt="pencil doodle" draggable="false"/>
     </section>
     <!-- Contact Section -->
     <section id="contact" class="contact-section content-section text-center">
@@ -139,7 +148,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <i class="content-section-icon fal fa-paper-plane"></i>
-            <h2>Let's Connect</h2>
+            <h2>Let's Connect!</h2>
             <ul class="list-inline banner-social-buttons d-flex justify-content-center">
               <li class="list-inline-item">
                 <a href="https://github.com/william-chu" class="btn btn-default btn-lg" target="_blank">
