@@ -56,8 +56,14 @@
             <i class="fal fa-angle-double-down"></i>
           </a>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path class="svg--sm" d="M0,0 30,35 65,40 90,70 100,75 100,100 0,100z"/>
-            <path class="svg--lg" d="M0,0 15,45 33,48 45,85 53,75 65,80 72,35 85,25 95,15 100,0 100,100 0,100z" />
+            <defs>
+              <linearGradient id="svg-linear" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%"   stop-color="#b4c9e3"/>
+                <stop offset="100%" stop-color="#cae2ff"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#svg-linear)" class="svg--sm" d="M0,0 30,35 65,40 90,70 100,75 100,100 0,100z"/>
+            <path fill="url(#svg-linear)" class="svg--lg" d="M0,0 15,45 33,48 45,85 53,75 65,80 72,35 85,25 95,15 100,0 100,100 0,100z" />
           </svg>
         </div>
       </div>
@@ -122,7 +128,7 @@
             <img class="shadow" src="img/troublechutelogin.jpg" alt="TroubleChute login screen" draggable="false">
             <a href="https://snack.expo.io/@william-chu/github.com-william-chu-troublechute" class="btn btn-default btn-lg" target="_blank">Live Demo</a>
             <a href="https://blog.expo.io/troublechute-a-bootcampers-journey-to-deducing-his-deuce-64bd988b1e89" class="btn btn-default btn-lg" target="_blank">Press</a>
-            <p class="text-left">React Native app for sufferers of poor digestion. Determines unknown dietary triggers by deconstructing meals into ingredients using the Yummly API.</p>
+            <p class="text-left">React Native app for sufferers of poor digestion. Determines dietary triggers by correlating health and ingredients found in meals.</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mx-auto">
             <h3>Angular IM</h3>
