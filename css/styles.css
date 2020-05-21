@@ -11,7 +11,6 @@ body {
   position: relative;
   display: block;
   margin: auto;
-  max-width: 2048px;
   color: #333;
   background-color: white;
 }
