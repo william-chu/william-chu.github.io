@@ -517,8 +517,8 @@ footer p {
 
 #laptop-doodle {
   left: -50px;
-  top: 200px;
-  transform: scaleX(-1) rotate(13deg);
+  top: 100px;
+  transform: scaleX(-1) rotate(16deg);
   height: 350px;
   width: 350px;
 }
