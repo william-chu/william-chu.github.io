@@ -417,6 +417,7 @@ a:hover {
 }
 
 .btn-default {
+  cursor: pointer;
   color: #fff;
   border-radius: 4px;
   padding: 0 8px;
