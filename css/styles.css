@@ -382,21 +382,22 @@ a:hover {
 .projects-section img {
   width: 95%;
   display: block;
-  margin: 0 auto 25px;
+  margin: 0 auto 24px;
+  border-radius: 8px;
 }
 
 .projects-section h1 {
-  margin-left: 15px;
+  margin-left: 16px;
   letter-spacing: 4px;
 }
 
 .projects-section i {
   font-size: 2.5rem;
-  margin-left: 15px;
+  margin-left: 16px;
 }
 
 .projects-section a {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .projects-section h3 {
@@ -417,8 +418,8 @@ a:hover {
 
 .btn-default {
   color: #fff;
-  border-radius: 3px;
-  padding: 0 10px;
+  border-radius: 4px;
+  padding: 0 8px;
   margin: 0 2px;
   background-color: #468fff;
   -webkit-transition: all 0.3s ease-in-out;
